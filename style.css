@@ -1,0 +1,49 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    width: 95%;
+    height: 100vh;
+    display: flex;
+}
+
+.quotes{
+    border: 7px solid #e29a52;
+
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    color: black;
+    background-color: #E8DCB8;
+}
+.quotes p{
+    padding-bottom: 24px;
+}
+.quotes p, .quotes h3{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.btn-warning{
+    margin-top: -64px;
+}
+@media(max-width: 480px){
+    .quotes p, .quotes h3{
+        font-size: 1rem;
+    }
+}
+
+
+
